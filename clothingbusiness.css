@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    }
+
+header {
+    block-size:auto;
+    height: 150px;
+    width: 100%;
+    background-color: rgb(190, 130, 41);
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-size-adjust: 20%;
+}
+
+main {
+    padding: 0px;
+    width: 80%;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 255);
+    color: azure;
+    padding: 10px;
+}
+nav{
+    background-color: rgb(190, 130, 41);
+    height: 90px;
+    text-align: center;
+    block-size: 50px;
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px 0px 0px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color:rgb(215, 217, 243);
+    color: rgb(8, 8, 56);
+}
+
+@media screen and (max-width: 600px){
+    nav a{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+article{
+    text-align: left;
+}
+
+img{
+    text-align: right;
+}
+
+
+
+html{
+    background-color: rgb(255, 255, 255);
+}
+
+h2{
+    height: auto;
+}
+
+.product{
+    position: fixed;
+    height: 40%;
+    
+    }
+
+.product1{
+position: fixed;
+height: 40%;
+
+}
+
+.product2{
+    position:fixed;
+    size-adjust: 50%;
+    width: 70%;
+    height: 40%;
+    
+}
+
+.product3{
+position: fixed;
+width: 70%;
+
+}
